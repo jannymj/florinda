@@ -12,11 +12,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
-        $username = $result->fetch_assoc();
+        $user = $result->fetch_assoc();
         // Verificar la contraseña
-        if (password_verify($password, $username['password'])) {
-            $_SESSION['username'] = $username['username'];  // Guardamos el nombre de usuario en sesión
-            header('Location: catalogo.php'); // Redirigir al catálogo
+        if (password_verify($password, $user['password'])) {
+            $_SESSION['username'] = $user['username'];  
+            header('Location: inicio.php'); 
             exit();
         } else {
             echo "<p class='error-message'>Contraseña incorrecta.</p>";
@@ -45,12 +45,10 @@ $conn->close();
             <input type="text" id="username" name="username" required placeholder="Ingrese su nombre de usuario">
 
             <label for="password">Contraseña:</label>
-            <input type="password" id="confirm_password" name="confirm_password" required placeholder="Confirma tu contraseña">
+            <input type="password" id="password" name="password" required placeholder="Ingrese su contraseña">
 
             <button type="submit">Iniciar Sesión</button>
         </form>
-    
     </div>
 </body>
 </html>
-

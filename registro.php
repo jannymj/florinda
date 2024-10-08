@@ -59,14 +59,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de usuario - La Fonda de Doña Florinda</title>
-    <link rel="stylesheet" href="registro.css"> <!-- Ruta al archivo CSS -->
+    <link rel="stylesheet" href="registro.css"> 
 </head>
 <body>
 
 <div class="login-container">
     <h2>Registro de usuario</h2>
     <form action="" method="POST">
-        <!-- Mostrar mensaje de error si existe -->
+        
         <?php if (isset($error)): ?>
             <p class="error-message"><?php echo $error; ?></p>
         <?php endif; ?>
