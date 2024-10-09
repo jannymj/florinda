@@ -59,37 +59,59 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de usuario - La Fonda de Doña Florinda</title>
-    <link rel="stylesheet" href="registro.css"> 
+    <link rel="stylesheet" href="registro.css"> <!-- Cambié a login.css para reutilizar estilos -->
 </head>
 <body>
 
-<div class="login-container">
-    <h2>Registro de usuario</h2>
-    <form action="" method="POST">
-        
-        <?php if (isset($error)): ?>
-            <p class="error-message"><?php echo $error; ?></p>
-        <?php endif; ?>
-
-        <label for="username">Nombre de usuario:</label>
-        <input type="text" id="username" name="username" required placeholder="Ingrese su nombre de usuario">
-
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com">
-
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required placeholder="Crea una contraseña">
-
-        <label for="confirm_password">Confirmar Contraseña:</label>
-        <input type="password" id="confirm_password" name="confirm_password" required placeholder="Confirma tu contraseña">
-
-        <button type="submit">Registrarse</button>
-    </form>
-
-    <div class="forgot-password">
-        <p>¿Ya tienes una cuenta? <a href="login.php">Iniciar Sesión</a></p>
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <p class="navbar-title">Sabores auténticos de México en cada plato</p>
     </div>
-</div>
+
+    <!-- Contenedor de logo e iconos -->
+    <div class="header-logo-icons">
+        <!-- Icono de usuario en el lado izquierdo -->
+        <div class="icon-container">
+            <img src="images/usuario.png" alt="Icono de cuenta" class="icon-left">
+        </div>
+        
+        <!-- Logo en el centro -->
+        <img src="images/logo fdf.png" alt="Logo" class="logo">
+
+        <!-- Iconos de búsqueda y carrito en el lado derecho -->
+        <div class="icon-container">
+            <img src="images/Lupa.png" alt="Icono de búsqueda" class="icon search-icon">
+            <img src="images/Carro de compras.png" alt="Icono de carrito" class="icon">
+        </div>
+    </div>
+
+    <div class="login-container">
+        <h2>Registro de usuario</h2>
+        <form action="" method="POST">
+            
+            <?php if (isset($error)): ?>
+                <p class="error-message"><?php echo $error; ?></p>
+            <?php endif; ?>
+
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" required placeholder="Ingrese su nombre de usuario">
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com">
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required placeholder="Crea una contraseña">
+
+            <label for="confirm_password">Confirmar Contraseña:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required placeholder="Confirma tu contraseña">
+
+            <button type="submit">Registrarse</button>
+        </form>
+
+        <div class="forgot-password">
+            <p>¿Ya tienes una cuenta? <a href="login.php">Iniciar Sesión</a></p>
+        </div>
+    </div>
 
 </body>
 </html>
