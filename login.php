@@ -34,29 +34,33 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión - La Fonda de Doña Florinda</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login_registro.css">
 </head>
 <body>
 
     <!-- Barra de navegación -->
     <div class="navbar">
-        <p class="navbar-title">Sabores auténticos de México en cada plato</p>
-    </div>
-
-    <!-- Contenedor de logo e iconos -->
-    <div class="header-logo-icons">
-        <!-- Icono de usuario en el lado izquierdo -->
-        <div class="icon-container">
-            <img src="images/usuario.png" alt="Icono de cuenta" class="icon-left">
-        </div>
-        
-        <!-- Logo en el centro -->
-        <img src="images/logo fdf.png" alt="Logo" class="logo">
-
-        <!-- Iconos de búsqueda y carrito en el lado derecho -->
-        <div class="icon-container">
-            <img src="images/Lupa.png" alt="Icono de búsqueda" class="icon search-icon">
-            <img src="images/Carro de compras.png" alt="Icono de carrito" class="icon">
+        <div class="header-logo-icons">
+            <img src="images/logo fdf.png" alt="Logo" class="logo">
+            <div class="menu-options">
+                <div class="dropdown">
+                    <a href="#">Menú</a>
+                    <div class="dropdown-content">
+                        <a href="#">Desayunos</a>
+                        <a href="#">Comida y Cena</a>
+                        <a href="#">Bebidas</a>
+                        <a href="#">Postres</a>
+                    </div>
+                </div>
+                <a href="#">Nosotros</a>
+                <a href="#">Sucursales</a>
+                <a href="#">Contáctanos</a>
+            </div>
+            <div class="icon-container">
+                <img src="images/usuario.png" alt="Icono de cuenta" class="icon-left">
+                <img src="images/busqueda.png" alt="Icono de búsqueda" class="icon search-icon">
+                <img src="images/Carro de compras.png" alt="Icono de carrito" class="icon">
+            </div>
         </div>
     </div>
 
@@ -83,6 +87,19 @@ $conn->close();
         <p style="margin-top: 20px;">¿No tienes una cuenta? <a href="registro.php">Regístrate aquí</a></p>
     </div>
 
+    <!-- Pie de página -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="logo-container">
+                <img src="images/logo fdf.png" alt="Logo" class="footer-logo">
+            </div>
+            <div class="mission-vision">
+                <p><strong>Misión:</strong> Ofrecer comida de calidad que haga sentir a nuestros clientes como en casa.</p>
+                <p><strong>Visión:</strong> Ser la fonda preferida por las familias para disfrutar de un buen alimento.</p>
+            </div>
+            <p class="slogan">¡Disfruta de la verdadera comida mexicana!</p>
+        </div>
+    </div>
+
 </body>
 </html>
-                
