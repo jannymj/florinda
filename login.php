@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $error_message = "Contraseña incorrecta."; // Asigna el mensaje de error
         }
     } else {
-        $error_message = "No existe el usuario."; // Asigna el mensaje de error
+        $error_message = "No existe el usuario.";
     }
 }
 
@@ -38,7 +38,6 @@ $conn->close();
 </head>
 <body>
 
-    <!-- Barra de navegación -->
     <div class="navbar">
         <div class="header-logo-icons">
             <img src="images/logo fdf.png" alt="Logo" class="logo">
@@ -57,10 +56,12 @@ $conn->close();
                 <a href="#">Contáctanos</a>
             </div>
             <div class="icon-container">
-                <img src="images/usuario.png" alt="Icono de cuenta" class="icon-left">
-                <img src="images/busqueda.png" alt="Icono de búsqueda" class="icon search-icon">
-                <img src="images/Carro de compras.png" alt="Icono de carrito" class="icon">
-            </div>
+    <a href="registro.php">
+        <img src="images/usuario.png" alt="Icono de cuenta" class="icon-left">
+    </a> 
+    
+</div>
+
         </div>
     </div>
 
@@ -87,7 +88,7 @@ $conn->close();
         <p style="margin-top: 20px;">¿No tienes una cuenta? <a href="registro.php">Regístrate aquí</a></p>
     </div>
 
-    <!-- Pie de página -->
+   
     <div class="footer">
         <div class="footer-content">
             <div class="logo-container">

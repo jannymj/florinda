@@ -63,7 +63,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
 
-    <!-- Barra de navegación -->
     <div class="navbar">
         <div class="header-logo-icons">
             <img src="images/logo fdf.png" alt="Logo" class="logo">
@@ -78,14 +77,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </div>
     <a href="#">Nosotros</a>
-    <a href="#">Sucursales</a> <!-- Nueva sección Sucursales -->
+    <a href="#">Sucursales</a> 
     <a href="#">Contáctanos</a>
 </div>
 
             <div class="icon-container">
                 <img src="images/usuario.png" alt="Icono de cuenta" class="icon-left">
-                <img src="images/busqueda.png" alt="Icono de búsqueda" class="icon search-icon">
-                <img src="images/Carro de compras.png" alt="Icono de carrito" class="icon">
+               
             </div>
         </div>
     </div>

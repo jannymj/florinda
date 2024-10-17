@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffcdacba;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(191, 191, 191, 0.639);
+    z-index: 1000;
+    padding: 0 20px;
+}
+
+.header-logo-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.header-logo-icons .logo {
+    max-height: 190px; /* Ajusta la altura del logo según lo necesites */
+    margin-bottom: -20px;
+}
+
+.menu-options {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.menu-options a {
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.6em;
+    position: relative;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+.menu-options a:hover {
+    text-decoration: underline;
+    background-color: #ffd3c1;
+    border-radius: 5px;
+}
+
+/* Submenú desplegable */
+.menu-options .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-options .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    border-radius: 5px;
+}
+
+.menu-options .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-options .dropdown-content a:hover {
+    background-color: #ff0080;
+    color: white;
+}
+
+.menu-options .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icon-left {
+    width: 35px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.icon-container .icon {
+    margin-left: 15px;
+    width: 35px;
+    height: auto;
+    cursor: pointer;
+}
+
+.search-icon {
+    margin-right: 10px;
+    width: 30px;
+    height: auto;
+}
+
+.content {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; 
+    margin-bottom: 40px;
+}
+
+.image-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image-box:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.image-box img {
+    width: 300px; 
+    height: 200px; 
+    border-radius: 10px 10px 0 0; 
+}
+
+.image-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 1, 141, 0.782);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.description {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    overflow: hidden;
+    margin: 40px auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(255, 248, 248, 0.795);
+    background-color: #ffdff0; 
+    padding: 10px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.2s ease; 
+}
+
+.carousel-images img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados en las imágenes =
+    max-height: 300px; /* Limita la altura máxima de las imágenes */
+}
+
+.carousel-dots {
+    text-align: center;
+    margin-top: 10px; /* Espacio entre las imágenes y los puntos */
+}
+
+.dot {
+    height: 10px; /* Ajustar tamaño de los puntos */
+    width: 10px; /* Ajustar tamaño de los puntos */
+    margin: 0 4px; /* Espacio entre los puntos */
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición al cambiar color */
+}
+
+.dot:hover {
+    background-color: #ff0080; /* Color al pasar el ratón */
+}
+
+.dot.active {
+    background-color: #ff6b81; /* Color del punto activo */
+}
+
+/* Añadiendo un efecto de sombra al carrusel */
+.carousel:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Sombra más intensa al pasar el ratón */
+}
+
+.footer {
+    background-color: #ffcdacba; /* Color de fondo */
+    padding: 30px 50px; /* Espaciado interno */
+    width: 100%; /* Ancho completo */
+    display: flex; /* Uso de flexbox para organización */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Alineación vertical */
+    text-align: left; /* Alineación de texto */
+    max-height: 350px; /* Altura máxima */
+    margin-top: 80px; /* Margen superior */
+    border-top: 2px solid #ff6a00; /* Línea superior para separar el footer del contenido */
+}
+
+.footer-content {
+    max-width: 1200px; /* Ancho máximo del contenido del footer */
+    width: 100%; /* Ancho completo */
+    display: flex; /* Uso de flexbox */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Alineación vertical */
+}
+
+.logo-container {
+    margin-right: auto; /* Margen derecho automático para empujar otros elementos */
+}
+
+.footer-logo {
+    max-height: 300px; /* Altura máxima del logo */
+    margin-top: 50px; /* Margen superior */
+}
+
+.mission-vision {
+    flex-grow: 1; /* Crecimiento flexible del contenedor */
+    display: flex; /* Uso de flexbox */
+    justify-content: space-between; /* Espacio entre elementos */
+    margin: 0 100px; /* Margen horizontal */
+    color: #333; /* Color del texto */
+    flex-direction: column; /* Dirección de los elementos en columna */
+    align-items: center; /* Alineación vertical */
+}
+
+.mission, .vision {
+    text-align: center; /* Alineación de texto en el centro */
+    margin: 20px 0; /* Margen vertical */
+}
+
+.slogan {
+    font-size: 1.5em; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    color: #ff6a00; /* Color del eslogan */
+    text-align: center; /* Alineación de texto */
+    margin-top: 10px; /* Margen superior */
+}
+
+@media (max-width: 400px) {
+    .footer {
+        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+        align-items: center; /* Centrar elementos */
+    }
+
+    .mission-vision {
+        margin: 20px 0; /* Ajuste de márgenes para pantallas pequeñas */
+    }
+}
+
