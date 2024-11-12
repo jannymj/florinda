@@ -21,9 +21,9 @@
                         <a href="postres.php">Postres</a>
                     </div>
                 </div>
-                <a href="#">Nosotros</a>
-                <a href="#">Sucursales</a> 
-                <a href="#">Contáctanos</a>
+                <a href="nosotros.php">Nosotros</a>
+                <a href="sucursales.php">Sucursales</a> 
+                <a href="contactanos.php">Contáctanos</a>
             </div>
 
             <div class="icon-container">
@@ -36,7 +36,6 @@
     </div>
 
     <div class="content">
-        <!-- Cuadrados de Imágenes -->
         <div class="image-container">
             <div class="image-box">
                 <img src="images/desayunos1.png" alt="Desayunos">
@@ -60,7 +59,6 @@
             </div>
         </div>
 
-        <!-- Carrusel -->
         <div class="carousel">
             <div class="carousel-images">
                 <img src="images/carrusel1.jpg" alt="Imagen 1">

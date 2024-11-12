@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <a href="#">Nosotros</a>
-                <a href="#">Sucursales</a> 
+                <a href="sucursales.php">Sucursales</a> 
                 <a href="#">Contáctanos</a>
             </div>
 

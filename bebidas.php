@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <a href="#">Nosotros</a>
-                <a href="#">Sucursales</a> 
+                <a href="sucursales.php">Sucursales</a> 
                 <a href="#">Contáctanos</a>
             </div>
 
@@ -68,7 +68,7 @@
             <img src="images/bebida5.jpg" alt="Sangría del Profesor Jirafales">
             <h3>Sangría del Profesor Jirafales</h3>
             <p>Vino Tinto, Jugo de Limón, Agua Mineral, un Toque de Azúcar y Trozos de Manzana.</p>
-            <p class="price">15 MXN</p>
+            <p class="price">96 MXN</p>
         </div>
         <div class="product-box">
             <img src="images/bebida6.jpg" alt="Licuado del Chavo">
