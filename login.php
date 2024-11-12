@@ -2,7 +2,7 @@
 session_start();
 $conn = new mysqli('localhost', 'root', '', 'fonda_dona_florinda');
 
-$error_message = ''; // Inicializa la variable de mensaje de error
+$error_message = ''; 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             header('Location: inicio.php');
             exit();
         } else {
-            $error_message = "Contraseña incorrecta."; // Asigna el mensaje de error
+            $error_message = "Contraseña incorrecta."; 
         }
     } else {
         $error_message = "No existe el usuario.";
@@ -65,12 +65,10 @@ $conn->close();
         </div>
     </div>
 
-    <!-- Formulario de inicio de sesión -->
     <div class="login-container">
         <h2>Iniciar Sesión</h2>
         
         <form action="login.php" method="POST">
-            <!-- Mensaje de error -->
             <?php if (!empty($error_message)): ?>
                 <p class="error-message"><?php echo $error_message; ?></p>
             <?php endif; ?>
@@ -84,7 +82,6 @@ $conn->close();
             <button type="submit">Iniciar Sesión</button>
         </form>
         
-        <!-- Botón de registro -->
         <p style="margin-top: 20px;">¿No tienes una cuenta? <a href="registro.php">Regístrate aquí</a></p>
     </div>
 
