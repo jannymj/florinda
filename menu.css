@@ -35,7 +35,7 @@ body {
 }
 
 .header-logo-icons .logo {
-    max-height: 185px; /* Ajusta la altura del logo según lo necesites */
+    max-height: 185px; 
     margin-bottom: -20px;
 }
 
@@ -167,7 +167,7 @@ body {
 
 
 .product-box a {
-    color: #ff6a00; /* Color distintivo para el enlace */
+    color: #ff6a00; 
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s, background-color 0.3s;
@@ -180,7 +180,7 @@ body {
 
 .product-box a:hover {
     color: #ffffff;
-    background-color: #ff6a00; /* Cambia el color de fondo al pasar el cursor */
+    background-color: #ff6a00; 
     text-decoration: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
