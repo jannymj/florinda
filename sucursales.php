@@ -22,9 +22,15 @@
                         <a href="postres.php">Postres</a>
                     </div>
                 </div>
-                <a href="#">Nosotros</a>
-                <a href="sucursales.php">Sucursales</a> 
-                <a href="#">Contáctanos</a>
+                <div class="dropdown">
+                    <a href="#">Nosotros</a>
+                    <div class="dropdown-content">
+                        <a href="quienes_somos.php">Quiénes somos</a>
+                        <a href="galeria.php">Galería</a>
+                    </div>
+                </div>
+                    <a href="sucursales.php">Sucursales</a> 
+                    <a href="contactanos.php">Contáctanos</a>
             </div>
 
             <div class="icon-container">

@@ -11,21 +11,30 @@
 
     <div class="navbar">
         <div class="header-logo-icons">
-        <img src="images/logo fdf.png" alt="Logo" class="logo">
-        <div class="menu-options">
-                <div class="dropdown">
-                    <a href="#">Menú</a>
-                    <div class="dropdown-content">
-                        <a href="desayunos.php">Desayunos</a>
-                        <a href="comidaycena.php">Comida y Cena</a>
-                        <a href="bebidas.php">Bebidas</a>
-                        <a href="postres.php">Postres</a>
+            <a href="inicio.php">
+                <img src="images/logo fdf.png" alt="Logo" class="logo">
+                </a>
+                <div class="menu-options">
+                    <div class="dropdown">
+                        <a href="#">Menú</a>
+                        <div class="dropdown-content">
+                            <a href="desayunos.php">Desayunos</a>
+                            <a href="comidaycena.php">Comida y Cena</a>
+                            <a href="bebidas.php">Bebidas</a>
+                            <a href="postres.php">Postres</a>
+                        </div>
                     </div>
+                    <div class="dropdown">
+                        <a href="#">Nosotros</a>
+                        <div class="dropdown-content">
+                            <a href="quienes_somos.php">Quiénes somos</a>
+                            <a href="galeria.php">Galería</a>
+                        </div>
+                    </div>
+                        <a href="sucursales.php">Sucursales</a> 
+                        <a href="contactanos.php">Contáctanos</a>
                 </div>
-                <a href="nosotros.php">Nosotros</a>
-                <a href="sucursales.php">Sucursales</a> 
-                <a href="contactanos.php">Contáctanos</a>
-            </div>
+
 
             <div class="icon-container">
             <a href="registro.php">
