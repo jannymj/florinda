@@ -45,44 +45,26 @@
     </div>
 
     <div class="content">
-        <div class="image-container">
-            <div class="image-box">
-                <img src="images/desayunos1.png" alt="Desayunos">
-                <div class="image-label">Desayunos</div>
-                <p class="description">Deliciosas opciones para empezar el día.</p>
+    <section class="contact-form">
+        <h2>Estamos aquí para ayudarte</h2>
+        <p>Si tienes alguna pregunta, comentario o sugerencia, por favor completa el siguiente formulario. Nos pondremos en contacto contigo lo antes posible.</p>
+        
+        <form action="procesar_contacto.php" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
             </div>
-            <div class="image-box">
-                <img src="images/comida1.jpg" alt="Comida y Cena">
-                <div class="image-label">Comida y Cena</div>
-                <p class="description">Platos abundantes para disfrutar en familia.</p>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
             </div>
-            <div class="image-box">
-                <img src="images/bebida1.jpg" alt="Bebidas">
-                <div class="image-label">Bebidas</div>
-                <p class="description">Refrescos y bebidas tradicionales.</p>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
             </div>
-            <div class="image-box">
-                <img src="images/postre1.jpg" alt="Postres">
-                <div class="image-label">Postres</div>
-                <p class="description">Dulces que endulzan tu día.</p>
-            </div>
-        </div>
-
-        <div class="carousel">
-            <div class="carousel-images">
-                <img src="images/carrusel1.jpg" alt="Imagen 1">
-                <img src="images/carrusel2.jpg" alt="Imagen 2">
-                <img src="images/carrusel3.jpg" alt="Imagen 3">
-                
-            </div>
-            <div class="carousel-dots">
-                <span class="dot active" onclick="setCurrentSlide(0)"></span>
-                <span class="dot" onclick="setCurrentSlide(1)"></span>
-                <span class="dot" onclick="setCurrentSlide(2)"></span>
-            </div>
-        </div>
-    </div>
-
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+    </section>
     <div class="footer">
         <div class="footer-content">
             <div class="logo-container">

@@ -45,42 +45,49 @@
     </div>
 
     <div class="content">
-        <div class="image-container">
-            <div class="image-box">
-                <img src="images/desayunos1.png" alt="Desayunos">
-                <div class="image-label">Desayunos</div>
-                <p class="description">Deliciosas opciones para empezar el día.</p>
-            </div>
-            <div class="image-box">
-                <img src="images/comida1.jpg" alt="Comida y Cena">
-                <div class="image-label">Comida y Cena</div>
-                <p class="description">Platos abundantes para disfrutar en familia.</p>
-            </div>
-            <div class="image-box">
-                <img src="images/bebida1.jpg" alt="Bebidas">
-                <div class="image-label">Bebidas</div>
-                <p class="description">Refrescos y bebidas tradicionales.</p>
-            </div>
-            <div class="image-box">
-                <img src="images/postre1.jpg" alt="Postres">
-                <div class="image-label">Postres</div>
-                <p class="description">Dulces que endulzan tu día.</p>
-            </div>
-        </div>
+        <section class="about-us">
+            <h1>Quiénes Somos</h1>
+            <p>
+                En *La Fonda de Doña Florinda*, estamos dedicados a ofrecer a nuestros clientes 
+                lo mejor de la comida mexicana, combinando recetas tradicionales con un toque 
+                moderno y único. Nuestra historia comenzó hace más de una década con el sueño 
+                de crear un espacio donde las familias puedan disfrutar de deliciosos platillos 
+                caseros en un ambiente cálido y acogedor.
+            </p>
+            <p>
+                Nuestra misión es proporcionar una experiencia culinaria excepcional que haga 
+                sentir a nuestros clientes como en casa, mientras celebramos las ricas tradiciones 
+                de la gastronomía mexicana.
+            </p>
+            <h2>Nuestros Valores</h2>
+            <ul>
+                <li>Calidad en cada platillo</li>
+                <li>Pasión por la cocina mexicana</li>
+                <li>Atención personalizada</li>
+                <li>Compromiso con la comunidad</li>
+            </ul>
+        </section>
 
-        <div class="carousel">
-            <div class="carousel-images">
-                <img src="images/carrusel1.jpg" alt="Imagen 1">
-                <img src="images/carrusel2.jpg" alt="Imagen 2">
-                <img src="images/carrusel3.jpg" alt="Imagen 3">
-                
+        <section class="team">
+            <h2>Conoce a Nuestro Equipo</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="images/chef.jpg" alt="Chef Principal">
+                    <h3>Florinda Meza</h3>
+                    <p>Fundadora y Chef Principal</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/manager.jpg" alt="Gerente">
+                    <h3>Janeth Meza</h3>
+                    <p>Gerente General</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/waitress.jpg" alt="Mesera">
+                    <h3>Yeisy Gómez</h3>
+                    <p>Encargada de Servicio</p>
+                </div>
             </div>
-            <div class="carousel-dots">
-                <span class="dot active" onclick="setCurrentSlide(0)"></span>
-                <span class="dot" onclick="setCurrentSlide(1)"></span>
-                <span class="dot" onclick="setCurrentSlide(2)"></span>
-            </div>
-        </div>
+        </section>
     </div>
 
     <div class="footer">
