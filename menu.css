@@ -285,31 +285,66 @@ body {
     margin-top: 10px; 
 }
 
-@media (max-width: 1200px) {
-    .product-grid {
-        grid-template-columns: repeat(3, 1fr); 
+/* Responsividad */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
     }
-}
 
-@media (max-width: 900px) {
-    .product-grid {
-        grid-template-columns: repeat(2, 1fr); 
+    .menu-options {
+        flex-direction: column;
+        align-items: center;
     }
-}
 
-@media (max-width: 600px) {
-    .product-grid {
-        grid-template-columns: 1fr; 
+    .menu-options a {
+        font-size: 1.2em;
+        padding: 10px;
+        margin: 5px 0;
     }
-}
 
-@media (max-width: 400px) {
+    .image-box img {
+        width: 90%;
+        height: auto;
+    }
+
     .footer {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
     }
 
-    .mission-vision {
-        margin: 20px 0; 
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 5px;
+    }
+
+    .menu-options a {
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    .icon-left, .icon-container .icon {
+        width: 20px;
+    }
+
+    .image-box img {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .slogan {
+        font-size: 1em;
     }
 }
