@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encabezado y Footer - La Fonda de Doña Florinda</title>
     <link rel="stylesheet" href="inicio.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
 
@@ -47,24 +48,29 @@
     <div class="content">
     <section class="contact-form">
         <h2>Estamos aquí para ayudarte</h2>
-        <p>Si tienes alguna pregunta, comentario o sugerencia, por favor completa el siguiente formulario. Nos pondremos en contacto contigo lo antes posible.</p>
-        
-        <form action="procesar_contacto.php" method="post">
-            <div class="form-group">
-                <label for="nombre">Nombre completo:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+        <p>Si tienes alguna pregunta, comentario o sugerencia, por favor contactanos en nuestras redes sociales. 
+            Nos pondremos en contacto contigo lo antes posible.</p>
+            
+            <div class="text-center my-5">
+                <a href="https://www.facebook.com/cesununiversidad/" target="_blank" class="social-link">
+                    <i class="bi bi-facebook"></i>
+                    <p><strong>Facebook</strong></p>
+                </a>
+                <a href="https://www.instagram.com/cesunoficial/" target="_blank" class="social-link">
+                    <i class="bi bi-instagram"></i>
+                    <p><strong>Instagram</strong></p>
+                </a>
+                <a href="https://www.tiktok.com/@cesun_universidad?is_from_webapp=1&sender_device=pc" target="_blank" class="social-link">
+                    <i class="bi bi-tiktok"></i>
+                    <p><strong>TikTok</strong></p>
+                </a>
+                <a href="https://www.youtube.com/channel/UCrzC3W1nzLJcUC0EEGPO_iw" target="_blank" class="social-link">
+                    <i class="bi bi-youtube"></i>
+                    <p><strong>YouTube</strong></p>
+                </a>
             </div>
-            <div class="form-group">
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
-            </div>
-            <div class="form-group">
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
-            </div>
-            <button type="submit" class="btn-submit">Enviar</button>
-        </form>
-    </section>
+            
+
     <div class="footer">
         <div class="footer-content">
             <div class="logo-container">

@@ -275,4 +275,37 @@ body {
     .slogan {
         font-size: 1em;
     }
-} 
+}
+
+/*Redes sociales */
+/* General para enlaces */
+.social-link {
+    display: inline-block;
+    margin: 30px; /* Espaciado entre cada ícono */
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: #e91e63; /* Rosa mexicano */
+}
+
+.social-link:hover {
+    transform: scale(1.3); /* Efecto de agrandamiento al pasar el mouse */
+    color: #c2185b; /* Un tono más oscuro de rosa mexicano */
+}
+
+/* Íconos */
+.social-link i {
+    font-size: 10rem; /* Tamaño de íconos (más grande) */
+    transition: color 0.3s ease;
+}
+
+.social-link:hover i {
+    color: #c2185b; /* Cambia el color del ícono al pasar el mouse */
+}
+
+/* Texto debajo de los íconos */
+.social-link p {
+    font-size: 1.5rem; /* Texto más grande */
+    font-weight: bold;
+    margin-top: 10px;
+}
