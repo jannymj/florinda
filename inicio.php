@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,8 +11,8 @@
 
     <div class="navbar">
         <div class="header-logo-icons">
-            <img src="images/logo fdf.png" alt="Logo" class="logo">
-            <div class="menu-options">
+        <img src="images/logo fdf.png" alt="Logo" class="logo">
+        <div class="menu-options">
                 <div class="dropdown">
                     <a href="#">Menú</a>
                     <div class="dropdown-content">

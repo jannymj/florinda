@@ -31,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 110%;
+    width: 130%;
 }
 
 .header-logo-icons .logo {
@@ -230,6 +230,8 @@ body {
     margin-top: 10px; 
 }
 
+
+/*Footer*/
 .footer {
     background-color: #ffcdacba;
     padding: 30px 50px; 
