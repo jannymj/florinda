@@ -49,34 +49,34 @@
 
     <div class="product-grid">
         <div class="product-box">
-            <img src="images/comida1.jpg" alt="Nachos de Don Ramón">
+            <img src="images/galeria1.jpg" alt=>
         </div>
         <div class="product-box">
-            <img src="images/comida2.jpg" alt="Queso Fundido del Chanfle">
+            <img src="images/galeria2.jpg" alt=>
         </div>
         <div class="product-box">
-            <img src="images/comida3.jpg" alt="Cazuela de Ñoño">
+            <img src="images/galeria3.jpg" alt=>
         </div>
         <div class="product-box">
-            <img src="images/comida4.jpg" alt="Patatas de Godínez">
+            <img src="images/galeria4.jpg" alt=>
         </div>
         <div class="product-box">
-            <img src="images/comida5.jpg" alt="Papas a lo Kiko">
+            <img src="images/galeria5.jpg" alt=>
         </div>
         <div class="product-box">
-            <img src="images/comida6.jpg" alt="Nachos del Chavo a la Mexicana">
+            <img src="images/galeria6.jpg" alt=>
         </div>
         <div class="product-box">
-            <img src="images/comida7.jpg" alt="Guacamole del Chavo Guapo">
+            <img src="images/galeria7.jpg" alt=>
         </div>
         <div class="product-box">
-            <img src="images/comida10.jpg" alt="Ensalada del Señor Barriga">
+            <img src="images/galeria8.jpg" alt=>
         </div>
         <div class="product-box">
-            <img src="images/comidas8.jpg" alt="Burritos de la Popis">
+            <img src="images/galeria9.jpg" alt=>
         </div>
         <div class="product-box">
-            <img src="images/comida11.jpg" alt="Enchiladas de la Chilindrina">
+            <img src="images/galeria10.jpg" alt=>
         </div>
     </div>
     <div class="footer">
