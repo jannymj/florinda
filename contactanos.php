@@ -48,8 +48,8 @@
     <div class="content">
     <section class="contact-form">
         <h2>Estamos aquí para ayudarte</h2>
-        <p>Si tienes alguna pregunta, comentario o sugerencia, por favor contactanos en nuestras redes sociales. 
-            Nos pondremos en contacto contigo lo antes posible.</p>
+        <p>Si tienes alguna pregunta, comentario o sugerencia, por favor contactanos en nuestras redes sociales.</p> 
+        <p>Nos pondremos en contacto contigo lo antes posible.</p>
             
             <div class="text-center my-5">
                 <a href="https://www.facebook.com/cesununiversidad/" target="_blank" class="social-link">
