@@ -72,17 +72,17 @@
             <h2>Conoce a Nuestro Equipo</h2>
             <div class="team-members">
                 <div class="team-member">
-                    <img src="images/chef.jpg" alt="Chef Principal">
+                    <img src="images/chef1.jpg" alt="Chef Principal">
                     <h3>Florinda Meza</h3>
                     <p>Fundadora y Chef Principal</p>
                 </div>
                 <div class="team-member">
-                    <img src="images/manager.jpg" alt="Gerente">
+                    <img src="images/Gerente2.jpg" alt="Gerente">
                     <h3>Janeth Meza</h3>
                     <p>Gerente General</p>
                 </div>
                 <div class="team-member">
-                    <img src="images/waitress.jpg" alt="Mesera">
+                    <img src="images/Mesera1.jpg" alt="Mesera">
                     <h3>Yeisy Gómez</h3>
                     <p>Encargada de Servicio</p>
                 </div>
