@@ -165,29 +165,36 @@ body {
     margin: 5px 0;
 }
 
-/* Footer */
+/*Footer*/
 .footer {
     background-color: #ffcdacba;
-    padding: 20px 20px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-    max-height: 400px;
-    margin-top: 80px;
-    border-top: 2px solid #ff6a00;
+    padding: 30px 150px; 
+    width: 110%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    text-align: left; 
+    max-height: 350px; 
+    margin-top: 80px; 
+    border-top: 2px solid #ff6a00; 
 }
+
+
+.footer-content {
+    max-width: 1200px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo-container {
+    margin-right: auto; 
+}
+
 .footer-logo {
     max-height: 300px; 
     margin-top: 50px; 
-}
-
-.footer-content {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .mission-vision {
@@ -212,6 +219,7 @@ body {
     text-align: center; 
     margin-top: 10px; 
 }
+
 
 /* Responsividad */
 @media (max-width: 768px) {
