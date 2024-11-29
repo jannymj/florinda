@@ -46,30 +46,30 @@
     </div>
 
     <div class="content">
-    <section class="contact-form">
-        <h2>Estamos aquí para ayudarte</h2>
-        <p>Si tienes alguna pregunta, comentario o sugerencia, por favor contactanos en nuestras redes sociales.</p> 
-        <p>Nos pondremos en contacto contigo lo antes posible.</p>
-            
-            <div class="text-center my-5">
-                <a href="https://www.facebook.com/cesununiversidad/" target="_blank" class="social-link">
-                    <i class="bi bi-facebook"></i>
-                    <p><strong>Facebook</strong></p>
-                </a>
-                <a href="https://www.instagram.com/cesunoficial/" target="_blank" class="social-link">
-                    <i class="bi bi-instagram"></i>
-                    <p><strong>Instagram</strong></p>
-                </a>
-                <a href="https://www.tiktok.com/@cesun_universidad?is_from_webapp=1&sender_device=pc" target="_blank" class="social-link">
-                    <i class="bi bi-tiktok"></i>
-                    <p><strong>TikTok</strong></p>
-                </a>
-                <a href="https://www.youtube.com/channel/UCrzC3W1nzLJcUC0EEGPO_iw" target="_blank" class="social-link">
-                    <i class="bi bi-youtube"></i>
-                    <p><strong>YouTube</strong></p>
-                </a>
+        <section class="contact-form">
+            <h2>Estamos aquí para ayudarte</h2>
+            <p>Si tienes alguna pregunta, comentario o sugerencia, por favor contactanos en nuestras redes sociales.</p> 
+            <p>Nos pondremos en contacto contigo lo antes posible.</p>
+                
+                <div class="text-center my-5">
+                    <a href="https://www.facebook.com/cesununiversidad/" target="_blank" class="social-link">
+                        <i class="bi bi-facebook"></i>
+                        <p><strong>Facebook</strong></p>
+                    </a>
+                    <a href="https://www.instagram.com/cesunoficial/" target="_blank" class="social-link">
+                        <i class="bi bi-instagram"></i>
+                        <p><strong>Instagram</strong></p>
+                    </a>
+                    <a href="https://www.tiktok.com/@cesun_universidad?is_from_webapp=1&sender_device=pc" target="_blank" class="social-link">
+                        <i class="bi bi-tiktok"></i>
+                        <p><strong>TikTok</strong></p>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCrzC3W1nzLJcUC0EEGPO_iw" target="_blank" class="social-link">
+                        <i class="bi bi-youtube"></i>
+                        <p><strong>YouTube</strong></p>
+                    </a>
+                </div>
             </div>
-            
 
     <div class="footer">
         <div class="footer-content">

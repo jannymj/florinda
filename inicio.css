@@ -376,19 +376,20 @@ body {
 
 /* Mejorar espaciado general */
 .content {
-    padding: 20px;
+    padding: 100px;
 }
 
 /* Sección de contacto */
 .contact-form {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
-    color: white; /* Texto blanco */
+    background-color: #ffeedd; /* Fondo semitransparente */
+    color: rgb(8, 7, 7); /* Texto blanco */
     text-align: center;
     padding: 30px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para resaltar */
-    max-width: 800px; /* Limita el ancho */
+    max-width: 1000px; /* Limita el ancho */
     margin: 0 auto; /* Centra horizontalmente */
+    margin-bottom: 50px; /* Añadir espacio entre el cuadro negro y el footer */
 }
 
 .contact-form h2 {
